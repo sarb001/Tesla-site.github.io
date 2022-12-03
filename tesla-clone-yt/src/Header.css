@@ -1,22 +1,22 @@
 .header
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
     position: sticky;
     z-index: 2;
     top:0;
     left: 0;
     right: 0;
-    justify-content: space-between;
     align-items: center;
-    padding: 25px;
-    padding-top: 15px;
+    padding: 29px;
+    padding-top: 20px;
 }
 .header_logo
 {
     width: 10%;
 }
 .header_logoimg{
-    width: 100%;
+    width: 25%;
     object-fit: contain;
     margin-right: 100px;
 }
@@ -24,3 +24,23 @@
     display: flex;
     gap: 15px;
 }
+.header_right{
+    display: flex;
+    gap: 15px;
+}
+.header_right > a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+ .header_links > a 
+ {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+ }
+
+ .header-link-hidden{
+    visibility: hidden;
+ }

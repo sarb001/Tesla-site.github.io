@@ -15,7 +15,7 @@ const Header = ({ismenuopen, setismenuopen}) => {
                 </Link>
             </div>
 
-            <div className="header_links">
+            <div className = "header_links">
                 <Link to = "/"> Model S  </Link>
                 <Link to = "/"> Model 3  </Link>
                 <Link to = "/"> Model X  </Link>
@@ -25,12 +25,11 @@ const Header = ({ismenuopen, setismenuopen}) => {
             </div>
 
            <div className="header_right">
-              <Link to = "/"> Shop </Link>
-              <br/>
-              <Link to = "/login"> Tesla Account </Link>
-              <div className="header_menu" onClick={() => setismenuopen(!ismenuopen)}>
-                {ismenuopen ? <MdCancel /> :  <TfiMenu /> }
-                 
+              <Link to = "/" className = {ismenuopen &&  'header-link-hidden'}> Shop </Link>
+              <Link to = "/login" className = {ismenuopen &&  'header-link-hidden'}> Tesla Account </Link>
+
+              <div className = "header_menu"  onClick = {() => setismenuopen(!ismenuopen)}>
+                {ismenuopen ? <MdCancel  /> :  <TfiMenu  /> }
               </div>
            </div>
 
