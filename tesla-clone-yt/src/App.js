@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './Header';
-import { BrowserRouter  as Router ,Route ,Routes} from 'react-router-dom'; 
-import Menu from './Menu';
-import Headerblock from './Headerblock';
+import {BrowserRouter, Route ,Routes} from 'react-router-dom'; 
+import Login from './Login';
+import Home from './Home';
 
 function App() {
 
-  const [ismenuopen,setismenuopen] = useState(false);
-
   return (
-    <Router>
-         <div className="App">
-         <Header ismenuopen = {ismenuopen}  setismenuopen = {setismenuopen} />
-         {ismenuopen && <Menu /> } 
-         <Headerblock />
-    </div>
-    </Router>
-    
+        <div className = "App">
+          <BrowserRouter>
+              <Routes>
+                <Route path = '/' element = {<Home />}>  </Route>
+                <Route path = '/login' element = {<Login />}>   </Route>
+              </Routes>
+          </BrowserRouter>
+          </div>
   );
 }
 

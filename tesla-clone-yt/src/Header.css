@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr 0.5fr;
     position: sticky;
-    z-index: 2;
+    z-index: 70;
     top:0;
     left: 0;
     right: 0;
@@ -43,4 +43,7 @@
 
  .header-link-hidden{
     visibility: hidden;
+ }
+ .header_menu {
+    z-index: 50;
  }

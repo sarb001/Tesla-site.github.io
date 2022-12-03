@@ -1,0 +1,10 @@
+.login_logo > a >img{
+    width: 10%;
+}
+.login {
+    padding: 2%;
+}
+.login_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
