@@ -28,7 +28,7 @@ const Signup = () => {
            </div>
            <div className = "signup_info">
              <h1> Sign In </h1>
-             <form className = 'signup_form'></form>
+             <form className = 'signup_form'> 
 
                 <label htmlFor='fname'> First Name </label>
                 <input  type = "fname" id = "fname" value = {fname} onChange = {(e) => setfname(e.target.value)} 
