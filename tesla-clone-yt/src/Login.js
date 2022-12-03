@@ -35,8 +35,8 @@ const Login = () => {
 
   return (
     <div className='login'> 
-         <div className="login_header">
-           <div className="login_logo"> <Link>  <img src = "/tesla logoblack.png" /> </Link>
+         <div className = "login_header">
+           <div className = "login_logo"> <Link>  <img src = "/tesla logoblack.png" /> </Link>
            </div>
             <div className="login_language">
                   <TfiWorld /> <span> en-US </span>
@@ -45,19 +45,18 @@ const Login = () => {
          <div className = "login_info">
            <h1> Sign In </h1>
            <form className = 'login_form'>
-              <label htmlFor ='email'> Email Address </label>
+              <label htmlFor ='email'> Email Address </label> 
               <input  type   = "email" id = "email" value = {email} onChange = {(e) => setemail(e.target.value)} />
 
-              <label htmlFor='password'> Password  </label>
-              <input  type = "password" id = "password" value = {password} onChange = {(e) => setpassword(e.target.value)} 
-              />
-            <ButtonPrimary  name = "Sign In" type = "submit" onClick = {signin}/>
+              <label htmlFor = 'password'> Password  </label>
+              <input  type = "password" id = "password" value = {password} onChange = {(e) => setpassword(e.target.value)}  />
+            <ButtonPrimary  name = "Sign In" type = "submit" onClick = {signin} />
            </form>
            <div className = "login_divider">
-             <hr /> <span> OR </span> <hr />
+              <hr /> <span> OR </span> <hr />
            </div>
            <Link to = "/signup">
-             <SecondaryButton name = 'create account' />
+             <SecondaryButton name = 'Create Account' />
           </Link>
          </div>
      </div>

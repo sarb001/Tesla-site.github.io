@@ -3,7 +3,11 @@ import { useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import {TfiWorld} from 'react-icons/tfi'
 import ButtonPrimary from './ButtonPrimary';
+import auth  from './Firebase';
 import './Signup.css';
+import SecondaryButton from './SecondaryButton';
+import { login } from './features/userSlice';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 const Signup = () => {
 
@@ -14,6 +18,36 @@ const Signup = () => {
 
       const dispatch = useDispatch();
       const navigate = useNavigate()
+
+
+      function signup(e){
+        e.preventDefault();
+
+        if(!fname){
+          return alert('Please enter a First Name')
+        }
+        if(!lname){
+          return alert('Please enter the Last Name')
+        }
+
+        auth.createUserWithEmailAndPassword(email,password).then((userAuth) => 
+        {
+            userAuth.user.updateProfile({
+              displayName: fname
+            }).then(() => 
+            {
+              dispatch(
+                login({
+                 email : userAuth.user.email,
+                 uid:userAuth.user.uid,
+                 displayName: fname,
+              })
+              )
+                navigate('/teslaccount')
+            })
+        })
+        .catch((error) => alert(error.message))
+      }
 
   return (
     <div> 
@@ -27,7 +61,7 @@ const Signup = () => {
               </div>
            </div>
            <div className = "signup_info">
-             <h1> Sign In </h1>
+             <h1> Create Account  </h1>
              <form className = 'signup_form'> 
 
                 <label htmlFor='fname'> First Name </label>
@@ -44,9 +78,16 @@ const Signup = () => {
                 <label htmlFor='password'> Password  </label>
                  <input  type = "password" id = "password" value = {password} onChange = {(e) => setpassword(e.target.value)} 
                 />
-
-              <ButtonPrimary  name = "Sign In" type = "submit" />
+                       <span>
+                            <SecondaryButton name = 'Create Account'  onClick={signup}/>
+                       </span>
              </form>
+                <div className = "login_divider">
+                   <hr /> <span> OR </span> <hr />
+               </div>
+                    <Link to = "/login">
+                          <ButtonPrimary  name = "Sign In" type = "submit" />
+                    </Link>
            </div>
        </div>
     </div>
