@@ -1,0 +1,42 @@
+.headerblock{
+    background:url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+}
+.drive-link {
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+}
+.headerblock_infotext{
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+}
+#model-3-name {
+    font-size: 40px;
+    font-weight: 600;
+}
+.headerblock_actions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.headerblock_actions > button {
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.headerblock_buttonprimary{
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
