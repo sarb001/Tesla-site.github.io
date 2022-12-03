@@ -1,0 +1,20 @@
+.signup
+{
+ padding: 2%;
+}
+
+.signup_logo > a > img 
+{
+    width: 20%;
+}
+.signup_header
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.signup_form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const SecondaryButton = ({name , type, onClick}) => {
+const SecondaryButton = ({name , type, onClick}) => 
+{
   return (
     <div className='buttonSecondary'> {name} </div>
   )
