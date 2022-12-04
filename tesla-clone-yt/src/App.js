@@ -8,7 +8,7 @@ import CheckingLogin from './CheckingLogin';
 import Signup from './Signup';
 import Checkingteslaaccount from './Checkingteslaaccount';
 import { onAuthStateChanged } from 'firebase/auth';
-import  auth  from './Firebase';
+import  { auth }  from './Firebase.js';
 
 function App() {
 
