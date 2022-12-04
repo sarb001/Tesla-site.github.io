@@ -1,20 +1,62 @@
 .headerblock{
-    background:url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
-
+    background: url('../public/Model\ S.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    font-family: serif;
     top:0;
     left: 0;
     right: 0;
     bottom: 0;
     display: grid;
+    height: 100vh;
     place-items: center;
 }
+.headerblock1 {
+    background: url('../public/Model\ Y.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    font-family: serif; 
+    display: grid;
+    height: 100vh;
+    place-items: center;
+
+}
+.headerblock2 {
+    background: url('../public/Model\ x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: serif;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.headerblock3{
+    background: url('../public/Solar\ ROOF.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: serif;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.headerblock4{
+    background: url('../public/Solar\ Panel.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: serif;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
 .drive-link {
-    font-size: larger;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     color: black;
 }
 .headerblock_infotext{
@@ -22,10 +64,33 @@
     flex-direction: column;
     height: 390px;
 }
-#model-3-name {
+#model-S-name {
     font-size: 40px;
     font-weight: 600;
 }
+#model-Y-name {
+    font-size: 40px;
+    font-weight: 600;
+}
+#model-X-name {
+    font-size: 40px;
+    font-weight: 600;
+}
+#model-panel-name {
+    font-size: 40px;
+    font-weight: 600;
+}
+#model-roof-name {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.drive-link3 {
+ text-decoration: none;
+}
+.drive-link4 {
+    text-decoration: none;
+   }
 .headerblock_actions{
     display: grid;
     grid-template-columns: 1fr 1fr;

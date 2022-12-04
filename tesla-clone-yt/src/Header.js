@@ -29,7 +29,7 @@ const Header = ({ismenuopen, setismenuopen}) => {
               <Link to = "/login" className = {ismenuopen &&  'header-link-hidden'}> Tesla Account </Link>
 
               <div className = "header_menu"  onClick = {() => setismenuopen(!ismenuopen)}>
-                {ismenuopen ? <MdCancel  /> :  <TfiMenu  /> }
+                {ismenuopen ? <MdCancel id = "cancel-logo" /> :  <TfiMenu  id = "menu-logo"  /> }
               </div>
            </div>
 
