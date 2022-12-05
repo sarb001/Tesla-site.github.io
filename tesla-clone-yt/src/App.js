@@ -6,6 +6,12 @@ import Login from './Login';
 import Signup from './Signup';
 import { FirstProvider } from './features/UserContext'; 
 import TeslaAccount from './TeslaAccount';
+import Model from './Models/Model';
+import Model3 from './Models/Model3';
+import Modelx from './Models/Modelx';
+import Modely from './Models/Modely';
+import Solarroof from './Models/Solarroof';
+import Solarpanel from './Models/Solarpanel';
 
 function App() {
 
@@ -18,6 +24,16 @@ function App() {
                   <Route path = '/teslaccount'  element = {<TeslaAccount />}>   </Route>
                   <Route path = '/login'   element = {<Login />}>  </Route>
                   <Route path = '/signup'  element = {<Signup />}>  </Route>
+
+                  {/* for Models */}
+
+                  <Route path = '/model'        element = {<Model />}>  </Route>
+                  <Route path = '/model-3'       element = {<Model3 />}>  </Route>
+                  <Route path = '/model-x'       element = {<Modelx />}>  </Route>
+                  <Route path = '/model-y'       element = {<Modely />}>  </Route>
+                  <Route path = '/solar-roof'   element = {<Solarroof />}>  </Route>
+                  <Route path = '/solar-panel'  element = {<Solarpanel />}>  </Route>
+
                 </Routes>
            </FirstProvider>
           </BrowserRouter>

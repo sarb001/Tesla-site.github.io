@@ -1,0 +1,27 @@
+.s-img1 > img {
+
+    width: 100%;
+    background-position: center;
+    height: 130vh;
+    background-size: cover;
+}
+.s-img2 > img {
+    width: 100%;
+    background-position: center;
+    height: 130vh;
+    background-size: cover;
+}
+.s-img3 > img {
+    width: 100%;
+    background-position: center;
+    height: 130vh;
+    background-size: cover;
+}
+.model-s-part1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.model-s-part2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -16,12 +16,12 @@ const Header = ({ismenuopen, setismenuopen}) => {
             </div>
 
             <div className = "header_links">
-                <Link to = "/">  Model S  </Link>
-                <Link to = "/">  Model 3  </Link>
-                <Link to = "/">  Model X  </Link>
-                <Link to = "/">  Model Y  </Link>
-                <Link to = "/">  Solar Roof  </Link>
-                <Link to = "/">  Solar Panel </Link>
+                <Link to = "/model">  Model S  </Link>
+                <Link to = "/model-3">  Model 3  </Link>
+                <Link to = "/model-x">  Model X  </Link>
+                <Link to = "/model-y">  Model Y  </Link>
+                <Link to = "/solar-roof">  Solar Roof  </Link>
+                <Link to = "/solar-panel">  Solar Panel </Link>
             </div>
 
            <div className="header_right">
