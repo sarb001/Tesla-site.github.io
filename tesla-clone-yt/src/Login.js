@@ -17,7 +17,7 @@ const Login = () => {
 
         try{
             await login(email,pass);
-            navigate('/home');
+            navigate('/teslaccount');
         }catch(err)
         {
             seterr(err.message)

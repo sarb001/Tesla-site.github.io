@@ -4,7 +4,8 @@ import { BrowserRouter, Route ,Routes } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
 import Signup from './Signup';
-import { FirstProvider } from './features/UserContext';
+import { FirstProvider } from './features/UserContext'; 
+import TeslaAccount from './TeslaAccount';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
           <BrowserRouter>
             <FirstProvider>
                 <Routes>
-                  <Route path = '/'        element = {<Home />}>  </Route>
+                  <Route path = '/'        element = {<Home />}>   </Route>
+                  <Route path = '/teslaccount'  element = {<TeslaAccount />}>   </Route>
                   <Route path = '/login'   element = {<Login />}>  </Route>
                   <Route path = '/signup'  element = {<Signup />}>  </Route>
                 </Routes>
