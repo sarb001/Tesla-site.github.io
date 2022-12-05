@@ -1,6 +1,7 @@
 .signup
 {
  padding: 2%;
+ cursor: pointer;
 }
 
 .signup_logo > a > img 
