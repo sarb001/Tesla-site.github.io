@@ -64,12 +64,18 @@
    display: grid;
    text-align: center;
    padding-top: 9%;
+   color: black;
+}
+#main-title
+{
+    font-weight: 600;
+    font-size: 40px;
 }
 .second-on-cart 
 {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr ;
-     column-gap: 25px;
+     column-gap: 35px;
 }
 #quality-1
 {
@@ -82,4 +88,14 @@
     font-size: 32px;
     font-weight: 600;
     align-self: flex-end;
+}
+#main-title-roof
+{
+    font-size: 39px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#sub-title-roof
+{
+    color: white;
 }

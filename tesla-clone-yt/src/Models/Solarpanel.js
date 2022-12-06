@@ -13,6 +13,18 @@ const Solarpanel = () => {
                <span>Lowest Cost Solar Panels in America </span>
             </div>
         </span>
+        <div className="text-on-car">
+                         <div className="first-on-cart">
+                              <span id = "main-title" > Solar for Existing Roofs </span>
+                              <span style = {{fontSize:'22px'}}> Lowest Cost Panels in America- Money-back guarantee </span>
+                         </div>
+                         <div className="second-on-cart">
+                              <div id = "quality-1"> <span id = "speed">  Sunlight </span>   <span id = "speed-2" > to Energy </span>   </div>
+                              <div id = "quality-1">  <span id = "speed">  Lowest </span>   <span id = "speed-2" > Price for Solar </span>    </div>
+                              <div id = "quality-1">  <span id = "speed">  24/7 </span>   <span id = "speed-2" >  Energy Monitoring </span>  </div>
+                              <div id = "quality-1">  <span id = "speed">  Feedback </span>   <span id = "speed-2" >  Appreciated </span>  </div>
+                         </div>
+                    </div> 
         <span className='s-img2'>
                 <img src = "/Solar Panel-2 .jpg"  alt = "First-logo" />
         </span>

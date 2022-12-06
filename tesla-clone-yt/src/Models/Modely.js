@@ -13,6 +13,18 @@ const Modely = () => {
                   <span> Interior of the Future </span>
               </div>
           </span>
+          <div className="text-on-car">
+                         <div className="first-on-cart">
+                              <span id = "main-title" > Model  Y </span>
+                              <span style = {{fontSize:'22px'}}> Plaid </span>
+                         </div>
+                         <div className="second-on-cart">
+                              <div id = "quality-1"> <span id = "speed"> 76 cu ft </span>   <span id = "speed-2" > Cargo Space </span>   </div>
+                              <div id = "quality-1">  <span id = "speed"> 330mi </span>   <span id = "speed-2" >  Range (EPA est.) </span>    </div>
+                              <div id = "quality-1">  <span id = "speed">  AWD </span>   <span id = "speed-2" >  Dual Motor </span>  </div>
+                              <div id = "quality-1">  <span id = "speed">  1080hp </span>   <span id = "speed-2" >  Peak Power </span>  </div>
+                         </div>
+                    </div> 
           <span className='s-img2'>
                   <img src = "/Model-Y-route2.png"  alt = "First-logo" />
           </span>

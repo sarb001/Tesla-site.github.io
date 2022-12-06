@@ -13,10 +13,22 @@ const Solarroof = () => {
                <span> Transform your roof and produce clean energy </span>
             </div>
         </span>
-        <span className='s-img2'>
+        <div className="text-on-car">
+                         <div className="first-on-cart">
+                              <span id = "main-title-roof" > Solar Roof </span>
+                              <span style = {{fontSize:'22px'}} id = "sub-title-roof"> Transform your roof and produce clean energy  </span>
+                         </div>
+                         <div className="second-on-cart">
+                              <div id = "quality-1"> <span id = "speed"> Greater </span>   <span id = "speed-2" > Build Quality </span>   </div>
+                              <div id = "quality-1">  <span id = "speed">  25-Year </span>   <span id = "speed-2" > Tile Warranty </span>    </div>
+                              <div id = "quality-1">  <span id = "speed">  24/7 </span>   <span id = "speed-2" >  Outage Protection </span>  </div>                       
+                              <div id = "quality-1">  <span id = "speed"> Custom </span>   <span id = "speed-2" > Options Available </span>  </div>                        
+                        
+                        </div> 
+        {/* <span className='s-img2'>
                 <img src = "/Solar ROOF 2.jpg"  alt = "First-logo" />
-        </span>
-    </div>
+        </span> */}
+      </div>
             <div className = "model-s-partition">
                 <div className="model-s-part1">
                     <div> 
@@ -43,6 +55,7 @@ const Solarroof = () => {
                 </div>
             </div>
         <Footer />    
+  </div>
 </div>
   )
 }

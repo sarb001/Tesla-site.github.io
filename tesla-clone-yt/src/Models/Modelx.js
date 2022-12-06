@@ -13,6 +13,18 @@ const Modelx = () => {
                 <span> Interior of the Future </span>
              </div>
         </span>
+        <div className="text-on-car">
+                         <div className="first-on-cart">
+                              <span id = "main-title" > Model  X  </span>
+                              <span style = {{fontSize:'22px'}}> Plaid </span>
+                         </div>
+                         <div className="second-on-cart">
+                              <div id = "quality-1"> <span id = "speed"> 333mi </span>   <span id = "speed-2" > Range (EPA est.) </span>   </div>
+                              <div id = "quality-1">  <span id = "speed"> 2.5s </span>   <span id = "speed-2" > 0-60 mph </span>    </div>
+                              <div id = "quality-1">  <span id = "speed">  9.9s </span>   <span id = "speed-2" >  1/4 Mile </span>  </div>
+                              <div id = "quality-1">  <span id = "speed"> 1,020hp </span>   <span id = "speed-2" > Peak Power </span> </div>
+                         </div>
+                    </div> 
         <span className='s-img2'>
                 <img src = "/Model-X-route1.png"  alt = "First-logo" />
         </span>
