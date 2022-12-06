@@ -9,7 +9,9 @@ const Modelx = () => {
     <div className = "model-route">
         <span className = "s-img1">
              <img src = "/Model-X-route.png" alt = "Main-S-Logo" />
-             <h1> Interior of the Future </h1>
+             <div className="text">
+                <span> Interior of the Future </span>
+             </div>
         </span>
         <span className='s-img2'>
                 <img src = "/Model-X-route1.png"  alt = "First-logo" />
@@ -23,13 +25,13 @@ const Modelx = () => {
                             or fast charge devices with wireless and 36-watt
                          USB-C charging.</p>
                     </div>
-                    <span className='s-img2'>
+                    <span className='s-img11'>
                             <img src = "/Model-S-route11-.png"  alt = "First-logo" />
                     </span>
                  </div>
                  <div className="model-s-part2">
                  
-                    <span className='s-img3'>
+                    <span className='s-img22'>
                         <img src = "/Model-S-route12.png" alt = "Second-logo" />
                     </span> 
                     <div> 

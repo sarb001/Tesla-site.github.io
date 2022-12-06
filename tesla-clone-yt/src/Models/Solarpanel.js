@@ -9,7 +9,9 @@ const Solarpanel = () => {
     <div className = "model-route">
         <span className = "s-img1">
             <img src = "/Solar Panel-1 .jpg" alt = "Main-S-Logo" />
-            <h1>Lowest Cost Solar Panels in America </h1>
+            <div className="text">
+               <span>Lowest Cost Solar Panels in America </span>
+            </div>
         </span>
         <span className='s-img2'>
                 <img src = "/Solar Panel-2 .jpg"  alt = "First-logo" />
@@ -23,13 +25,13 @@ const Solarpanel = () => {
                             or fast charge devices with wireless and 36-watt
                         USB-C charging.</p>
                     </div>
-                    <span className='s-img2'>
+                    <span className='s-img11'>
                             <img src = "/Model-S-route11-.png"  alt = "First-logo" />
                     </span>
                 </div>
                 <div className="model-s-part2">
                 
-                    <span className='s-img3'>
+                    <span className='s-img22'>
                         <img src = "/Model-S-route12.png" alt = "Second-logo" />
                     </span> 
                     <div> 
