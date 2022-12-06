@@ -7,17 +7,30 @@ const Model = () => {
   return (
     <div> 
         <Header  /> 
-        <div className = "model-route">
-            <span className = "s-img1">
-                 <img src = "/Model-s-main-pic.jpg" alt = "Main-S-Logo" />
-                 <div className="text">
-                     Interior of the Future 
-                 </div>
-            </span>
-            <span className='s-img2'>
-                    <img src = "/Model -s -route -122.png"  alt = "First-logo" />
-            </span>
-        </div>
+               <div className = "model-route">
+                    <span className = "s-img1">
+                         <img src = "/Model-s-main-pic.jpg" alt = "Main-S-Logo" />
+                         <div className="text">
+                              Interior of the Future 
+                         </div>
+                    </span>
+                    <div className="text-on-car">
+                         <div className="first-on-cart">
+                              <span id = "main-title" style = {{fontSize:'40px'}}> ModelS </span>
+                              <span style = {{fontSize:'22px'}}> Plaid </span>
+                         </div>
+                    <div className="second-on-cart">
+                           <div id = "quality-1"> <span id = "speed"> 396mi </span>   <span id = "speed-2" > Range (EPA est.) </span>   </div>
+                           <div id = "quality-1">  <span id = "speed"> 1.99s </span>   <span id = "speed-2" > 9-60 mph </span>    </div>
+                           <div id = "quality-1">  <span id = "speed">  200mph </span>   <span id = "speed-2" >  Top Speed </span>  </div>
+                           <div id = "quality-1">  <span id = "speed"> 1,020hp </span>   <span id = "speed-2" > Peak Power </span> </div>
+                    </div>
+               </div> 
+                    <span className='s-img2'>
+                              <img src = "/Model -s -route -122.png"  alt = "First-logo" />
+                    </span>
+               </div>
+                 
                 <div className = "model-s-partition">
                       <div className = "model-s-part1">
                         <div> 
@@ -42,6 +55,8 @@ const Model = () => {
                         </div>
                       </div>
                 </div>
+
+
 
             <Footer />    
     </div>

@@ -50,3 +50,36 @@
     color: white;
     padding: 4%;
 }
+.text-on-car{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 440px;
+    padding: 0% 28%;
+    position: absolute;
+    top:10%;
+    color: white;
+}
+.first-on-cart
+{
+   display: grid;
+   text-align: center;
+   padding-top: 9%;
+}
+.second-on-cart 
+{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     column-gap: 25px;
+}
+#quality-1
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+#speed
+{
+    font-size: 32px;
+    font-weight: 600;
+    align-self: flex-end;
+}
