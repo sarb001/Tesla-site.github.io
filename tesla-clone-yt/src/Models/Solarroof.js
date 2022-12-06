@@ -25,10 +25,8 @@ const Solarroof = () => {
                               <div id = "quality-1">  <span id = "speed"> Custom </span>   <span id = "speed-2" > Options Available </span>  </div>                        
                         
                         </div> 
-        {/* <span className='s-img2'>
-                <img src = "/Solar ROOF 2.jpg"  alt = "First-logo" />
-        </span> */}
-      </div>
+       
+        </div>
             <div className = "model-s-partition">
                 <div className="model-s-part1">
                     <div> 
