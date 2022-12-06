@@ -27,29 +27,33 @@ const Signup = () =>
     }
 
   return (
-    <div> 
-       <h1> Signup  </h1> 
+    <div className='signup-login' style = {{display:'flex',flexDirection:'column',alignItems:'center'}} > 
+       <h1> Sign up  </h1> 
          { err && <h2> {err} </h2> }
-       <div className = "main-container" >
+        <div className = "main-container" >
                 <form onSubmit = {handlesignup}>
-                    <label htmlFor = 'name'>  </label>
-                    <input type = "name" name = "name"    placeholder = 'Enter your Name' 
-                    onChange={(e) => setname(e.target.value)} />
+                    <div className = "signup-part">
+                          <label htmlFor = 'name'> Name - </label>
+                          <input type = "name" name = "name"    placeholder = 'Enter your Name' 
+                          onChange={(e) => setname(e.target.value)} />
 
-                    <label htmlFor = "email">  </label>
-                    <input type = "email" name = "email"  placeholder = 'Enter your email'
-                     onChange={(e) => setemail(e.target.value)} />
-                    
-                    <label htmlFor = "password">  </label>
-                    <input type = "password" name = "password" placeholder = 'Enter your Password' 
-                     onChange={(e) => setpass(e.target.value)}  />
+                          <label htmlFor = "email">  Email - </label>
+                          <input type = "email" name = "email"  placeholder = 'Enter your email'
+                          onChange={(e) => setemail(e.target.value)} />
+                          
+                          <label htmlFor = "password"> Password - </label>
+                          <input type = "password" name = "password" placeholder = 'Enter your Password' 
+                          onChange={(e) => setpass(e.target.value)}  />
 
-                    <button> Sign Up Here  </button>
+                      <div style = {{padding:'5% 26%'}}> 
+                          <button style = {{fontSize:'18px'}}> Sign Up   </button>
+                      </div>
+                      </div>
                 </form>
                  <div className = "signup-part">
-              <span>
-                <Link to = "/login"> Login Here </Link>
-              </span>
+                    <span className = 'account-creation'>
+                      <Link to = "/login"> Login Here </Link>
+                    </span>
                  </div>
         </div>
     </div>

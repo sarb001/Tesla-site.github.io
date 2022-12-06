@@ -3,7 +3,38 @@
 .main-container
 {
     padding: 5%;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
-    cursor: pointer;
+    justify-content: center;
+    background-color: rgb(190, 190, 191);
+    width: 16vw;
+}
+.account-creation
+{
+    padding: 1px ;
+    width: 100%;
+}
+.account-creation > a
+{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 3%;
+  background-color: rgb(54, 52, 52);
+}
+.login-part
+{
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+}
+.signup-part
+{
+  display: flex;
+  flex-direction: column;
+}
+input 
+{
+    padding: 6px;
 }

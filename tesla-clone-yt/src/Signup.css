@@ -19,3 +19,6 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr;
     width: 300px;
 }
+.account-creation{
+    padding: 9% 25%;
+}
