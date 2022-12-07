@@ -6,9 +6,9 @@ import './Model.css';
 const Model = () => {
   return (
     <div> 
-        <Header  /> 
-               <div className = "model-route">
-                    <span className = "s-img1">
+        <Header   />    
+               <div className = "model-route">     
+                    <span className = "s-img1">   
                          <img src = "/Model-s-main-pic.jpg" alt = "Main-S-Logo" />
                          <div className="text">
                               Interior of the Future 
@@ -55,9 +55,6 @@ const Model = () => {
                         </div>
                       </div>
                 </div>
-
-
-
             <Footer />    
     </div>
   )
