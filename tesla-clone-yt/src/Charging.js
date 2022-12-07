@@ -16,7 +16,7 @@ const Charging = () => {
                   <span>  <Link to = "/charging">   Charging       </Link>  </span>
                   <span>  <Link to = "/loot-box">  Loot Box      </Link>  </span>
                   <span>  <Link to = "/history">   Order History  </Link>  </span>
-                  <span>  <Link to = "/signout">    Sign Out      </Link>  </span>
+                  <span>  <Link to = "/">    Sign Out      </Link>  </span>
           </div>
           <div className = "second-side-charge">
                <div className="second-side-images" >

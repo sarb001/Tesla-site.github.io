@@ -22,6 +22,11 @@ export function FirstProvider({children})
         return signInWithEmailAndPassword(auth,email,password)
     }
 
+    function logout()
+    {
+         return signOut(auth);
+    }
+
     useEffect(() => {
 
         const unsubscribe = onAuthStateChanged(auth ,(currentuser) => {
@@ -34,7 +39,7 @@ export function FirstProvider({children})
 
     return(
         <>
-          <auth1.Provider value = {{auth,signup,login}}>
+          <auth1.Provider value = {{auth,signup,login,logout}}>
              {children}
           </auth1.Provider>
         </>

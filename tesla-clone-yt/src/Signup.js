@@ -17,7 +17,6 @@ const Signup = () =>
         e.preventDefault();
         seterr("");
         try{
-
           await signup(email,pass,name);
           navigate('/login');
         }catch(err)

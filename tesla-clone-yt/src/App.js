@@ -27,6 +27,7 @@ function App() {
                   <Route path = '/teslaccount'  element = {<TeslaAccount />}>   </Route>
                   <Route path = '/login'   element = {<Login />}>  </Route>
                   <Route path = '/signup'  element = {<Signup />}>  </Route>
+                  <Route path = '/signout'  element = {<Signup />}>  </Route>
 
                   {/* for Models */}
 
@@ -43,7 +44,6 @@ function App() {
                   <Route path = '/loot-box'   element = {<Lootbox  />}>  </Route>
                   <Route path = '/history'   element  = {<History  />}>  </Route>
                   {/* <Route path = '/signout'   element = {<Solarpanel />}>  </Route> */}
-
 
                 </Routes>
            </FirstProvider>

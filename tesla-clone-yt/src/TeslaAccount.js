@@ -1,10 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from './features/UserContext';
 import Header from './Header';
 
 import './TeslaAccount.css';
 
-const TeslaAccount = () => {
+const TeslaAccount = () =>  {
+
+    const { logout ,user } = useAuth();
+    const [ err , seterr ] = useState('');
+    const navigate = useNavigate();
+
+    const handlelogout = async (e) => 
+    {
+        e.preventDefault();
+        try{
+          await logout();
+          navigate('/')
+        }
+        catch(err)
+        {
+            seterr(err.message)
+        }
+    }
+
   return (
     <div > 
         <Header /> 
@@ -17,7 +36,7 @@ const TeslaAccount = () => {
                   <span>  <Link to = "/charging">   Charging  </Link>  </span>
                   <span>  <Link to = "/loot-box">  Loot Box      </Link>  </span>
                   <span>  <Link to = "/history">   Order History  </Link>  </span>
-                  <span>  <Link to = "/signout">    Sign Out      </Link>  </span>
+                  <button onClick = {handlelogout}> Sign Out </button>
           </div>
           <div className = "second-side">
                <div className="second-side-images" style = {{display:'grid' ,width:'90%',backgroundColor:'whitesmoke'}}>
