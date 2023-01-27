@@ -4,9 +4,8 @@
 
 <h1> Table of Contents -- </h1>
 <ul>
- <li> 
-<a href = "#"> General info </a>  </li>
- <a href = "#"> Technologies </a>  </li>
-<a href = "#"> Features </a>  </li>
+ <li>  <a href = "#"> General info </a>  </li>
+ <li> <a href = "#"> Technologies </a>  </li>
+<li>  <a href = "#"> Features </a>  </li>
 </ul>
 
