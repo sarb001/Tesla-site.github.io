@@ -17,5 +17,5 @@ Everything is updated (27-01-2023) </b>
  <h3>   Frontend -    <b>  Reactjs </b> </h3>
  <h3>  Backend  -  <b> Firebase  </b> </h3>
  <br />
- <h2> Setup ( How to use -) </h2>
+ <h3> Setup ( How to use -) </h3>
 
