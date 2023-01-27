@@ -14,6 +14,6 @@ Everything is updated (27-01-2023) </b>
  <br />
 <p>  <b> Live Link - </b>  https://tesla-site-github-io-1uz2.vercel.app/ </p>
 <h3> Technologies used -  </h3>
-<b> <h3> Frontend - </h3>  Reactjs </b>
-<b> <h3>  Backend - </h3> Firebase  </b>
+<h3>   Frontend -  </h3>  <b>  Reactjs </b>
+ <h3>  Backend  - </h3> <b> Firebase  </b>
 
