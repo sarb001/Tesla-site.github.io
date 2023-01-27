@@ -7,11 +7,13 @@
  <li>  <a href = "#"> General info </a>  </li>
  <li> <a href = "#"> Technologies </a>  </li>
 <li>  <a href = "#"> Setup </a>  </li>
-<li>  <a href = "#"> Features </a>  </li>
 </ul>
 
 <b> This is the website that reperesent the All Functionalties of Tesla- site .
 Everything is updated (27-01-2023) </b>
  <br />
 <p>  <b> Live Link - </b>  https://tesla-site-github-io-1uz2.vercel.app/ </p>
+<h2> Technologies used -  </h2>
+<b>  Frontend - Reactjs </b>
+<b>  Backend - Firebase  </b>
 
