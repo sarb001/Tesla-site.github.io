@@ -6,7 +6,6 @@
 <ul>
  <li>  <a href = "#"> General info </a>  </li>
  <li> <a href = "#"> Technologies </a>  </li>
-<li>  <a href = "#"> Setup & Installation </a>  </li>
 </ul>
 
 <b> This is the website that reperesent the All Functionalties of Tesla- site .
@@ -17,5 +16,4 @@ Everything is updated (27-01-2023) </b>
  <h3>   Frontend -    <b>  Reactjs </b> </h3>
  <h3>  Backend  -  <b> Firebase  </b> </h3>
  <br />
- <h3> Setup & Installation- </h3>
 
