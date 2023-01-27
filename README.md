@@ -6,6 +6,10 @@
 <ul>
  <li>  <a href = "#"> General info </a>  </li>
  <li> <a href = "#"> Technologies </a>  </li>
+<li>  <a href = "#"> Setup </a>  </li>
 <li>  <a href = "#"> Features </a>  </li>
 </ul>
 
+<p> This is the website that reperesent the All Functionalties of Tesla- site .
+Everything is updated (27-01-2023)
+</p>
