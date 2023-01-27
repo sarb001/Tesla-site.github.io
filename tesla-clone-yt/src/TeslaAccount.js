@@ -7,7 +7,7 @@ import './TeslaAccount.css';
 
 const TeslaAccount = () =>  {
 
-    const { logout ,user } = useAuth();
+    const { logout  } = useAuth();
     const [ err , seterr ] = useState('');
     const navigate = useNavigate();
 
@@ -40,7 +40,7 @@ const TeslaAccount = () =>  {
           </div>
           <div className = "second-side">
                <div className="second-side-images" style = {{display:'grid' ,width:'90%',backgroundColor:'whitesmoke'}}>
-                  <span> <img src= "/image-part-1.png" alt = "" style = {{width:'100%',height:'30vh'}} /> </span>
+                  <span> <img src= "/image-part-1.png" alt = "First-image" style = {{width:'100%',height:'30vh'}} /> </span>
                   <span> Order Tesla Solar  </span>
                   <span> Produce energy  to power your Tesla Life </span>
                   <span> <a href = "#" >   View Solar  </a> </span>

@@ -1,6 +1,6 @@
 import React ,  {useState} from 'react'
 import './Signup.css';
-import { Link ,Navigate, useNavigate } from 'react-router-dom';
+import { Link , useNavigate } from 'react-router-dom';
 import { useAuth } from './features/UserContext';
 
 const Signup = () => 
